@@ -1,0 +1,17 @@
+name: test-react-push
+
+on: push
+
+jobs:
+  mon_job:
+    name: job-react-test
+    runs-on: ubuntu-latest
+    steps:
+      - name: cd
+        uses: cd front-quiz-adventure
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: install
+        uses: npm install
+      - name: test
+        uses: npm run build
