@@ -13,6 +13,7 @@ Au vu du peu de temps à ma disposition, j'ai volontairement faire l'impasse sur
 - Faire plus de commit tout en suivant une convention de nommage
 - Mise en place de tests unitaires tout au long de la phase de développement
 
+
 Travail rendu :
 
 l'application que j'ai réalisé nous permet d'entrer un pseudo, de répondre à une série de questions et d'avoir notre score final, elle enregistre également le meilleur score du joueur.
