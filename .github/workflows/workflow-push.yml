@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: cd
-        run: cd front-quiz-adventure
+        run: cd front-quiz-adventure/
       - name: checkout
         uses: actions/checkout@v4
       - name: install
