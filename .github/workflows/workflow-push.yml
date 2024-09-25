@@ -12,6 +12,6 @@ jobs:
       - name: cd
         run: cd front-quiz-adventure/
       - name: install
-        run: npm ci
+        run: npm install
       - name: test
         run: npm test
